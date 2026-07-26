@@ -16,6 +16,8 @@ final class PetPanel: NSPanel {
         level = .floating
         hidesOnDeactivate = false
         isReleasedWhenClosed = false
+        isMovable = true
+        isMovableByWindowBackground = true
     }
 
     override var canBecomeKey: Bool {
